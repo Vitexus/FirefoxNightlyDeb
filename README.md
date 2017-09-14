@@ -17,9 +17,9 @@ Building package
 Installation
 ------------
 
-Download from https://www.vitexsoftware.cz/pool/main/n/nightly/nightly_1.0.2_all.deb or Build package. Then install:
+Download from https://www.vitexsoftware.cz/pool/main/n/nightly/nightly_1.0.3_all.deb or Build package. Then install:
 
-    gdebi nightly_1.0.2_all.deb
+    gdebi nightly_1.0.3_all.deb
 
 
 Or you can use repo:
@@ -29,3 +29,13 @@ Or you can use repo:
     apt update
     apt install nightly
 
+Testing
+-------
+
+    vagrant up
+    vagrant ssh
+    sudo apt install xfce4
+    startxfce4
+
+
+![Vagrant Test](https://raw.githubusercontent.com/Vitexus/FirefoxNightlyDeb/master/vagrantubuntu.png "Nightly in Ubuntu")
