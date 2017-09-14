@@ -2,7 +2,7 @@
 
 export DEBIAN_FRONTEND="noninteractive"
 apt-get update
-apt-get -y install devscripts dpkg-dev
+apt-get -y install devscripts dpkg-dev debhelper mc xinit
 
 cd /vagrant
 debuild -i -us -uc -b
