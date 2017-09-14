@@ -17,9 +17,9 @@ Building package
 Installation
 ------------
 
-Download from https://www.vitexsoftware.cz/pool/main/n/nightly/nightly_1.0.1_all.deb or Build package. Then install:
+Download from https://www.vitexsoftware.cz/pool/main/n/nightly/nightly_1.0.2_all.deb or Build package. Then install:
 
-    dpkg -i nightly_1.0.1_all.deb
+    gdebi nightly_1.0.2_all.deb
 
 
 Or you can use repo:
