@@ -25,7 +25,7 @@ Download from https://www.vitexsoftware.cz/pool/main/n/nightly/nightly_1.0.3_all
 Or you can use repo:
 
     wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
-    echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
+    echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/vitexsoftware.list
     apt update
     apt install nightly
 
