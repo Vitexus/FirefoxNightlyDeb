@@ -2,6 +2,14 @@
 DESTDIR="/opt/nightly"
 TMPFILE="/tmp/nightly.tar.bz2"
 LANGCODE=`env | grep LANG= | awk -F= '{print $2}' | awk -F_ '{print $1}'`
+
+
+case $LANGCODE in
+en|es|fy|ga) LANGCODE=`echo $LANG | sed -e 's/_/-/g' | awk -F. '{print $1}'` ;;
+*) echo "" ;;
+esac
+
+
 archs=`uname -m`
 case "$archs" in
     i?86) archs="linux32" ;;
