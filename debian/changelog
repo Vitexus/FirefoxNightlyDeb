@@ -1,5 +1,5 @@
-nightly (1.0) UNRELEASED; urgency=medium
+nightly (1.0.1) UNRELEASED; urgency=medium
 
-  * Initial release.
+  * Add Dependency to wget
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 14 Sep 2017 01:14:29 +0200
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 14 Sep 2017 02:31:27 +0200
