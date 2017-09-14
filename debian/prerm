@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ] ; then
+    update-alternatives --remove x-www-browser /opt/nightly/firefox
+    update-alternatives --remove gnome-www-browser /opt/nightly/firefox
+fi
+
+if [ "$1" = "remove" ]; then
+    rm -rf /opt/nightly
+fi
+
+
+

@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+if [ "$1" = "remove" ]; then
+    dpkg-divert --package nightly --rename --remove /usr/bin/nightly
+fi
+
+
