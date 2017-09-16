@@ -8,7 +8,7 @@ Standards-Version: 3.9.2
 
 Package: nightly
 Architecture: all
-Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libevent-2.0-5 (>= 2.0.10-stable), libffi6 (>= 3.0.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0, libhunspell-1.4-0, libnspr4 (>= 2:4.10.9), libnss3 (>= 2:3.26), libpango-1.0-0 (>= 1.14.0), libsqlite3-0 (>= 3.7.12-1~), libstartup-notification0 (>= 0.8), libstdc++6 (>= 5.2), libvpx4 (>= 1.6.0), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrender1, libxt6, zlib1g (>= 1:1.2.0), fontconfig, procps, debianutils (>= 1.16),wget
+Depends: libasound2, libc6, libfontconfig1, libfreetype6, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk-3-0, libhunspell-1.4-0, libnspr4, libnss3, libpango-1.0-0, libsqlite3-0, libstartup-notification0, libstdc++6, libx11-6, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxrender1, libxt6, zlib1g, fontconfig, procps, debianutils,wget
 Recommends: gstreamer1.0-libav, gstreamer1.0-plugins-good
 Suggests: fonts-stix | otf-stix, fonts-lmodern, mozplugger, libgssapi-krb5-2 | libkrb53, libgnomeui-0, libcanberra0
 Conflicts: iceweasel (<< 45), j2re1.4, pango-graphite (<< 0.9.3)
