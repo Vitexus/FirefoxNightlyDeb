@@ -1,14 +1,14 @@
 #!/bin/sh -e
 DESTDIR="/opt/nightly"
 TMPFILE="/tmp/nightly.tar.bz2"
-LANGCODE=`env | grep LANG= | awk -F= '{print $2}' | awk -F_ '{print $1}'`
-
+LANGCODE=`echo $LANG | awk -F_ '{print $1}'`
 
 case $LANGCODE in
 en|es|fy|ga) LANGCODE=`echo $LANG | sed -e 's/_/-/g' | awk -F. '{print $1}'` ;;
 *) echo "" ;;
 esac
 
+echo "Current Language is ⁝$LANG⁝ = ⁝$LANGCODE⁝"
 
 archs=`uname -m`
 case "$archs" in
@@ -16,6 +16,7 @@ case "$archs" in
     x86_64) archs="linux64" ;;
     armel) archs="linuxarmel" ;;
 esac
+
 
 wget "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=${archs}&lang=${LANGCODE}" -O $TMPFILE
 cd /tmp
