@@ -5,5 +5,5 @@ debian/icons/48/nightly.png  usr/share/icons/hicolor/48x48/apps
 debian/icons/64/nightly.png  usr/share/icons/hicolor/64x64/apps
 debian/icons/128/nightly.png  usr/share/icons/hicolor/128x128/apps
 debian/icons/256/nightly.png usr/share/icons/hicolor/256x256/apps
-debian/icons/scalable/nightly.png usr/share/icons/hicolor/scalable/apps
+debian/icons/scalable/nightly.svg usr/share/icons/hicolor/scalable/apps
 
