@@ -1,9 +1,9 @@
 nightly.desktop	usr/share/applications
-debian/icons/16/flexplorer.png  usr/share/icons/hicolor/16x16/apps
-debian/icons/32/flexplorer.png  usr/share/icons/hicolor/32x32/apps
-debian/icons/48/flexplorer.png  usr/share/icons/hicolor/48x48/apps
-debian/icons/64/flexplorer.png  usr/share/icons/hicolor/64x64/apps
-debian/icons/128/flexplorer.png  usr/share/icons/hicolor/128x128/apps
-debian/icons/256/flexplorer.png usr/share/icons/hicolor/256x256/apps
-debian/icons/scalable/flexplorer.png usr/share/icons/hicolor/scalable/apps
+debian/icons/16/nightly.png  usr/share/icons/hicolor/16x16/apps
+debian/icons/32/nightly.png  usr/share/icons/hicolor/32x32/apps
+debian/icons/48/nightly.png  usr/share/icons/hicolor/48x48/apps
+debian/icons/64/nightly.png  usr/share/icons/hicolor/64x64/apps
+debian/icons/128/nightly.png  usr/share/icons/hicolor/128x128/apps
+debian/icons/256/nightly.png usr/share/icons/hicolor/256x256/apps
+debian/icons/scalable/nightly.png usr/share/icons/hicolor/scalable/apps
 
