@@ -12,6 +12,11 @@ if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] ; then
         gnome-www-browser.1.gz /usr/share/man/man1/firefox-esr.1.gz
 fi
 
+if [ -f /usr/bin/xdg-desktop-menu ]; then
+    xdg-desktop-menu install --novendor /usr/share/applications/nightly.desktop > /dev/null || true
+fi
+
+
 if [ "$1" = "configure" ] ; then
     chmod g+rwX /opt/nightly -R
     chgrp users /opt/nightly -R
