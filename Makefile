@@ -14,7 +14,7 @@ clean:
 	rm -rf debian/*.substvars debian/*.log debian/*.debhelper debian/files debian/debhelper-build-stamp
 
 deb:
-	debuild -i -us -uc -b
+	dpkg-buildpackage -A -us -uc
 
 .PHONY : install
 	

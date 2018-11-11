@@ -5,7 +5,8 @@ LANGCODE=`echo $LANG | awk -F_ '{print $1}'`
 
 case $LANGCODE in
 en|es|fy|ga) LANGCODE=`echo $LANG | sed -e 's/_/-/g' | awk -F. '{print $1}'` ;;
-*) echo "" ;;
+C.UTF-8 ) LANGCODE="en-US" ;;
+*) echo "$LANGCODE" ;;
 esac
 
 echo "Current Language is ⁝$LANG⁝ = ⁝$LANGCODE⁝"
