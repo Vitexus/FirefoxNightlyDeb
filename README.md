@@ -1,5 +1,5 @@
-Firefox Nightly package for Debian / Ubuntu
-===========================================
+Firefox Nightly installer package for Debian / Ubuntu
+=====================================================
 
 ![FirefoxNightly](https://raw.githubusercontent.com/Vitexus/FirefoxNightlyDeb/master/nightly.png "Nightly logo")
 
@@ -28,6 +28,11 @@ Or you can use repo:
     echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/vitexsoftware.list
     apt update
     apt install nightly
+
+
+
+![Updating](https://raw.githubusercontent.com/Vitexus/FirefoxNightlyDeb/master/installing.png "Updating")
+
 
 Testing
 -------
