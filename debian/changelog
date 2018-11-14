@@ -1,9 +1,14 @@
-nightly (1.0.8) UNRELEASED; urgency=medium
+nightly (65.0a1) experimental; urgency=medium
+
+
 
   [ Vítězslav Dvořák ]
   * Fix Download url on english environments
 
   [ Vitex ]
   * Icon Fixed
+
+  [ vitex ]
+  * 
 
  -- Vitex <vitex@hebeditko>  Thu, 08 Nov 2018 00:08:28 +0100
