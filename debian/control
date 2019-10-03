@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Homepage: https://github.com/Vitexus/FirefoxNightlyDeb
-Standards-Version: 3.9.2
+Standards-Version: 4.3.0
 
 Package: nightly
 Architecture: all
