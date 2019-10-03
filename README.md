@@ -17,17 +17,17 @@ Building package
 Installation
 ------------
 
-Download from https://www.vitexsoftware.cz/pool/main/n/nightly/nightly_65.0a1_all.deb or Build package. Then install:
+Download from https://repo.vitexsoftware.cz/  or Build package. Then install:
 
-    gdebi nightly_65.0a1_all.deb
+    gdebi nightly_71.0a1_all.deb
 
 
 Or you can use repo:
 
-    wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
-    echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/vitexsoftware.list
-    apt update
-    apt install nightly
+    echo "deb http://repo.vitexsoftware.cz $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
+    sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.cz/keyring.gpg
+    sudo apt update
+    sudo apt install nightly
 
 
 
