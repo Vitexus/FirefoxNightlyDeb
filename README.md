@@ -44,3 +44,6 @@ Testing
 
 
 ![Vagrant Test](https://raw.githubusercontent.com/Vitexus/FirefoxNightlyDeb/master/vagrantubuntu.png "Nightly in Ubuntu")
+
+
+See also: https://github.com/Vitexus/ThunderbirdDailyDeb
