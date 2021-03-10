@@ -1,4 +1,10 @@
 debian/nightly
 debian/files
 deb
+.vagrant/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/mkico.sh
+debian/nightly.debhelper.log
+debian/nightly.substvars
 
