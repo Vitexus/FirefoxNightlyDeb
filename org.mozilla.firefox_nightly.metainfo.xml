@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.mozilla.firefox_nightly</id>
+  
+  <name>Firefox Nightly</name>
+  <summary>Always fresh browser by Mozilla</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MPL-2.0</project_license>
+  
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </recommends>
+  
+  <description>
+    <p>
+      Every day, Mozilla developers write code that is merged into a common code repository (mozilla-central) and every day that code is compiled so as to create a pre-release version of Firefox based on this code for testing purposes, this is what we call a Nightly build. Once this code matures, it is merged into stabilization repositories (Beta and Dev Edition) where that code will be polished until we reach a level of quality that allows us to ship a new final version of Firefox to hundreds of millions of people. This development process used to ship a new version of Firefox every 4 weeks is called the Train Model.
+    </p>
+  </description>
+  <project_group>Mozilla</project_group>
+  
+  <launchable type="desktop-id">nightly.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://cdn2.portableapps.com/FirefoxPortableNightly.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://www.omgubuntu.co.uk/wp-content/uploads/2017/08/firefox-57-nightly-on-ubuntu-1704.jpg</image>
+    </screenshot>
+  </screenshots>
+</component>
+

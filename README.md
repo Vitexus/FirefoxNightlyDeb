@@ -1,7 +1,7 @@
 Firefox Nightly installer package for Debian / Ubuntu
 =====================================================
 
-![FirefoxNightly](https://raw.githubusercontent.com/Vitexus/FirefoxNightlyDeb/master/nightly.png "Nightly logo")
+![FirefoxNightly](nightly.svg?raw=true "Nightly logo")
 
 Firefox Nightly gets a new version every day and as a consequence, the release notes for the Nightly channel are updated continuously to reflect features that have reached sufficient maturity to benefit from community feedback and bug reports. Features listed here may or may not make a final release of Firefox.
 
