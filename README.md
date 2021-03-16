@@ -31,7 +31,7 @@ Or you can use repo:
 
 
 
-![Updating](https://raw.githubusercontent.com/Vitexus/FirefoxNightlyDeb/master/installing.png "Updating")
+![Updating](installing.png?raw=true "Updating")
 
 
 Testing
@@ -43,7 +43,11 @@ Testing
     startxfce4
 
 
-![Vagrant Test](https://raw.githubusercontent.com/Vitexus/FirefoxNightlyDeb/master/vagrantubuntu.png "Nightly in Ubuntu")
+![Vagrant Test](vagrantubuntu.png?raw=true "Nightly in Ubuntu")
 
 
-See also: https://github.com/Vitexus/ThunderbirdDailyDeb https://github.com/VitexSoftware/FirefoxDevelEditionDeb
+See also
+--------
+ * https://github.com/Vitexus/ThunderbirdDailyDeb 
+ * https://github.com/VitexSoftware/FirefoxDevelEditionDeb
+ 
