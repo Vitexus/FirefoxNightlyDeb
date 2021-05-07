@@ -4,7 +4,7 @@ TMPFILE="/tmp/nightly.tar.bz2"
 LANGCODE=`echo $LANG | awk -F_ '{print $1}'`
 
 case $LANGCODE in
-en|es|fy|ga) LANGCODE=`echo $LANG | sed -e 's/_/-/g' | awk -F. '{print $1}'` ;;
+en|es|fy|ga|zh) LANGCODE=`echo $LANG | sed -e 's/_/-/g' | awk -F. '{print $1}'` ;;
 C.UTF-8|C ) LANGCODE="en-US" ;;
 *) echo "$LANGCODE" ;;
 esac
