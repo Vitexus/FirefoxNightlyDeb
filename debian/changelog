@@ -1,3 +1,17 @@
+nightly (91.0a1+) UNRELEASED; urgency=medium
+
+  * Jenkinsfile Added
+
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Fri, 25 Jun 2021 23:07:03 +0200
+
+nightly (90.0a1+) EXPERIMENTAL; urgency=low
+
+  [ Vítězslav Dvořák ]
+  * Icons path fixed
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 04 Oct 2021 01:13:20 +0200
+
+
 nightly (89.0a1+) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
