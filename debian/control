@@ -7,10 +7,10 @@ Homepage: https://github.com/Vitexus/FirefoxNightlyDeb
 Build-Depends: inkscape
 Standards-Version: 4.3.0
 
-Package: nightly
+Package: firefox-nightly
 Architecture: all
 Depends: libc6, libgcc1, libstdc++6 ,wget
-Provides: gnome-www-browser, www-browser, x-www-browser
+Provides: gnome-www-browser, www-browser, x-www-browser, firefox
 Description: Mozilla Nightly web browser installer
  Firefox Nihtly is a powerful, extensible web browser with support for modern
  web application technologies.

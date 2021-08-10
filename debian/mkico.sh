@@ -1,5 +1,5 @@
 #!/bin/bash
-PACKAGE="nightly"
+PACKAGE="firefox-nightly"
 SRC="$PACKAGE.svg"
 DIR="debian/$PACKAGE/usr/share/icons/hicolor"
 

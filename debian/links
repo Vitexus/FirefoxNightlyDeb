@@ -1,1 +1,2 @@
-opt/nightly/firefox usr/bin/nightly
+opt/firefox-nightly/firefox usr/bin/nightly
+opt/firefox-nightly/firefox usr/bin/firefox-nightly

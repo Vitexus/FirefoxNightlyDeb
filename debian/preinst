@@ -1,7 +1,11 @@
 #!/bin/sh -e
-DESTDIR="/opt/nightly"
+DESTDIR="/opt/firefox-nightly"
 TMPFILE="/tmp/nightly.tar.bz2"
 LANGCODE=`echo $LANG | awk -F_ '{print $1}'`
+
+if [ -f /opt/nightly ]; then
+    mv -f /opt/nightly /opt/firefox-nightly
+fi
 
 case $LANGCODE in
 en|es|fy|ga|zh) LANGCODE=`echo $LANG | sed -e 's/_/-/g' | awk -F. '{print $1}'` ;;
