@@ -1,7 +1,7 @@
 Firefox Nightly installer package for Debian / Ubuntu
 =====================================================
 
-![FirefoxNightly](nightly.svg?raw=true "Nightly logo")
+![FirefoxNightly](firefox-nightly.svg?raw=true "Nightly logo")
 
 Firefox Nightly gets a new version every day and as a consequence, the release notes for the Nightly channel are updated continuously to reflect features that have reached sufficient maturity to benefit from community feedback and bug reports. Features listed here may or may not make a final release of Firefox.
 
@@ -9,18 +9,20 @@ Firefox Nightly gets a new version every day and as a consequence, the release n
 Building package
 ----------------
 
-    apt-get -y install devscripts dpkg-dev
-    git clone https://github.com/Vitexus/FirefoxNightlyDeb.git
-    debuild -i -us -uc -b
-
+```shell
+apt-get -y install devscripts dpkg-dev
+git clone https://github.com/Vitexus/FirefoxNightlyDeb.git
+debuild -i -us -uc -b
+```
 
 Installation
 ------------
 
 Download from https://repo.vitexsoftware.cz/  or Build package. Then install:
 
+```shell
     gdebi nightly_71.0a1_all.deb
-
+```
 
 Or you can use repo:
 
