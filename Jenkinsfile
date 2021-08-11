@@ -9,6 +9,7 @@ pipeline {
     options {
         ansiColor('xterm')
         copyArtifactPermission('*');
+	disableConcurrentBuilds()
     }
 
     environment {
