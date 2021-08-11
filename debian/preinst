@@ -1,4 +1,7 @@
 #!/bin/sh -e
+
+#DEBHELPER#
+
 DESTDIR="/opt/firefox-nightly"
 TMPFILE="/tmp/nightly.tar.bz2"
 LANGCODE=`echo $LANG | awk -F_ '{print $1}'`

@@ -1,5 +1,7 @@
 #!/bin/sh -e
 
+#DEBHELPER#
+
 if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ] ; then
     update-alternatives --remove x-www-browser /opt/firefox-nightly/firefox
     update-alternatives --remove gnome-www-browser /opt/firefox-nightly/firefox
