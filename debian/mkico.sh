@@ -16,11 +16,11 @@ do
     else
         inkscape -w ${resolution} -h ${resolution} $SRC $DIR/${resolution}x${resolution}/$PACKAGE.png
     fi
+    rsvg-convert -a -w ${resolution} -f svg ${SRC} -o $DIR/${resolution}x${resolution}/$PACKAGE.svg
 done
 
 
-
 mkdir -p $DIR/scalable/apps
-cp $SRC $DIR/scalable/apps/$PACKAGE.svg 
+cp $SRC $DIR/scalable/apps/$PACKAGE.svg
 echo All done
 

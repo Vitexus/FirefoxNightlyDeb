@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Homepage: https://github.com/Vitexus/FirefoxNightlyDeb
-Build-Depends: inkscape
+Build-Depends: inkscape, librsvg2-bin
 Standards-Version: 4.3.0
 
 Package: firefox-nightly
