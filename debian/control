@@ -10,6 +10,7 @@ Standards-Version: 4.3.0
 Package: firefox-nightly
 Architecture: all
 Depends: libc6, libgcc1, libstdc++6 ,wget
+Replaces: nightly
 Provides: gnome-www-browser, www-browser, x-www-browser
 Description: Mozilla Nightly web browser installer
  Firefox Nihtly is a powerful, extensible web browser with support for modern
