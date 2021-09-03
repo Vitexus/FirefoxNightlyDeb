@@ -9,7 +9,7 @@ pipeline {
     options {
         ansiColor('xterm')
         copyArtifactPermission('*');
-	disableConcurrentBuilds()
+	//disableConcurrentBuilds()
     }
 
     environment {
@@ -20,9 +20,9 @@ pipeline {
     
     stages {
 
-        stage('debian-stable') {
+        stage('debian-buster') {
             agent {
-                docker { image 'vitexsoftware/debian:stable' }
+                docker { image 'vitexsoftware/debian:oldstable' }
             }
             steps {
                 dir('build/debian/package') {
@@ -38,12 +38,29 @@ pipeline {
                     copyArtifact()
                 }
             }
-
-
-            
         }
 
-        stage('debian-testing') {
+        stage('debian-bullseye') {
+            agent {
+                docker { image 'vitexsoftware/debian:stable' }
+            }
+            steps {
+                dir('build/debian/package') {
+                    checkout scm
+		            buildPackage()
+		            installPackages()
+                }
+                stash includes: 'dist/**', name: 'dist-bullseye'
+            }
+            post {
+                success {
+                    archiveArtifacts 'dist/debian/'
+                    copyArtifact()
+                }
+            }
+        }
+
+        stage('debian-bookworm') {
             agent {
                 docker { image 'vitexsoftware/debian:testing' }
             }
@@ -53,7 +70,7 @@ pipeline {
 		            buildPackage()
 		            installPackages()
                 }
-                stash includes: 'dist/**', name: 'dist-bullseye'
+                stash includes: 'dist/**', name: 'dist-bookworm'
             }
             post {
                 success {
