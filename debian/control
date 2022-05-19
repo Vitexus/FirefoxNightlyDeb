@@ -9,7 +9,7 @@ Standards-Version: 4.3.0
 
 Package: firefox-nightly
 Architecture: all
-Depends: libc6, libgcc1, libstdc++6 ,wget
+Depends: libc6, libgcc1, libstdc++6 ,wget, libdbus-glib-1-2
 Replaces: nightly
 Provides: gnome-www-browser, www-browser, x-www-browser
 Description: Mozilla Nightly web browser installer
