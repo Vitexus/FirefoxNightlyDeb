@@ -1,0 +1,10 @@
+[Unit]
+Description=Install fresh nightly browser
+Documentation=man:nightly(1)
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1m
+
+[Install]
+WantedBy=timers.target

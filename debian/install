@@ -1,3 +1,4 @@
 firefox-nightly.desktop				usr/share/applications
 org.mozilla.firefox_nightly.metainfo.xml	/usr/share/metainfo/
 mozilla-nightly-updater				/usr/sbin
+nightly.timer                       /etc/systemd/system
