@@ -24,3 +24,5 @@ cd /tmp
 mkdir -p $DESTDIR
 tar xjvf $TMPFILE -C $DESTDIR --strip-components=1
 rm $TMPFILE
+echo current installed version:
+nightly --full-version

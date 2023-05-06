@@ -1,4 +1,4 @@
-nightly (101.0a1+) UNRELEASED; urgency=medium
+nightly (112.0a1) UNRELEASED; urgency=medium
 
   [ CyberVitexus ]
   * Jenkinsfile Added
@@ -7,8 +7,9 @@ nightly (101.0a1+) UNRELEASED; urgency=medium
   * Icons renamed to firefox-nightly.svg
   * Rebuild for new repo
   * Build only amd64
+  * Update
 
- -- vitex <info@vitexsoftware.cz>  Thu, 19 May 2022 14:18:27 +0200
+ -- vitex <info@vitexsoftware.cz>  Sat, 06 May 2023 12:27:53 +0200
 
 nightly (90.0a1+) EXPERIMENTAL; urgency=low
 
