@@ -59,10 +59,10 @@ architectures.each {
                     buildImage = docker.image(vendor + '/' + distribution)
                     sh 'git checkout debian/changelog'
                     def VERSION = sh(
-                        script: 'dpkg-parsechangelog --show-field Version',
+                        script: 'curl -s "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl" | awk -F/ \'{print $8}\' | awk -F- \'{print $2}\'',
                         returnStdout: true
                     ).trim()
-                    ver = VERSION + '.' + env.BUILD_NUMBER  + '~' + distroCodename
+                    ver = VERSION + '+.' + env.BUILD_NUMBER  + '~' + distroCodename
                 }
                 stage('Build ' + architecture + ' ' + distribution) {
                     buildImage.inside {
