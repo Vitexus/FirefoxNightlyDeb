@@ -59,7 +59,7 @@ architectures.each {
                     buildImage = docker.image(vendor + '/' + distribution)
                     sh 'git checkout debian/changelog'
                     def VERSION = sh(
-                        script: 'curl -s "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl" | awk -F/ \'{print $8}\' | awk -F- \'{print $2}\'',
+                        script: 'curl -s "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl" | awk -F/ \'{print $8}\' | awk -F- \'{print $2}\'| awk -F. \'{print $1}\'',
                         returnStdout: true
                     ).trim()
                     ver = VERSION + '+.' + env.BUILD_NUMBER  + '~' + distroCodename
